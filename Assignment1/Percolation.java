@@ -15,7 +15,7 @@ public class Percolation {
     Num = N;
     WUF = new WeightedQuickUnionUF(Num*Num + 1);
     open_status = new int[Num][Num];
-    
+    // blah
     for (int i = 0; i < Num; i++)
     {
       for(int j = 0; j < Num; j++)

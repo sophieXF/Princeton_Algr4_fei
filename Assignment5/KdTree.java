@@ -11,11 +11,12 @@ public class KdTree {
 	private int numNode;  
 	private class Node
 	{
-		public double x; 
+		public double x;
 		public double y; 
 		public int count; 
 		public Node left; 
 		public Node right;
+		
 		public Node(double xval, double yval, int countval) 
 		{
 			x = xval; 

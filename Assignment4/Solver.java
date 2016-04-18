@@ -63,7 +63,7 @@ public class Solver {
     		if (solvableflag == true || solvableflagTwin == true) { break;}
     		//StdOut.println("move: "+ numMoves); 
     		//StdOut.println("pqlength: " + pqNode.size());
-    		StdOut.println("min:"+minNode.board);
+    		//StdOut.println("min:"+minNode.board);
   
     		for (Board tempBoard : minNode.board.neighbors())
     		{	
@@ -71,13 +71,13 @@ public class Solver {
     			{
     				Node tempNode = new Node (tempBoard, minNode.move + 1, minNode); 
     				pqNode.insert(tempNode);
-    				StdOut.println("neighbors1: "+tempBoard);
+    				//StdOut.println("neighbors1: "+tempBoard);
     			}
     			else if (!tempBoard.equals(minNode.preNode.board))
     			{
     				Node tempNode = new Node (tempBoard, minNode.move + 1, minNode); 
     				pqNode.insert(tempNode);
-    				StdOut.println("neighbors: "+tempBoard);
+    			//	StdOut.println("neighbors: "+tempBoard);
     			}
     		}
     		for (Board tempBoardTwin : minNodeTwin.board.neighbors())

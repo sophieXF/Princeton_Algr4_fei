@@ -138,54 +138,100 @@ public class Board {
 
     public Iterable<Board> neighbors()     // all neighboring boards
     {
-        StdOut.println("step0");
+        int[][] blkArraycopy1 = new int[N][N];
+        int[][] blkArraycopy2 = new int[N][N];
+        int[][] blkArraycopy3 = new int[N][N];
+        int[][] blkArraycopy4 = new int[N][N];
         Stack<Board> allneighbors = new Stack<Board>();
-        Board tempneighbor1 = new Board(blkArray);
-        Board tempneighbor2 = new Board(blkArray);
-        Board tempneighbor3 = new Board(blkArray);
-        Board tempneighbor4 = new Board(blkArray); 
-        StdOut.println("indexj " + indexZeroj);
-        StdOut.println("indexi " + indexZeroi);
-        if(indexZeroj > 0) 
-            {
-                StdOut.println("next" + blkArray[indexZeroi][indexZeroj - 1]);
-                tempneighbor1.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi][indexZeroj - 1]; 
-                StdOut.println("interstep1");
-                tempneighbor1.blkArray[indexZeroi][indexZeroj - 1] = 0; 
-                StdOut.println("interstep2");
-                tempneighbor1.indexZeroj = indexZeroj - 1;  
-                allneighbors.push(tempneighbor1); 
-                //tempneighbor = new Board(blkArray);
-            }
-            StdOut.println("step1");
-        if(indexZeroj < N-1)
-            {
-                tempneighbor2.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi][indexZeroj + 1]; 
-                tempneighbor2.blkArray[indexZeroi][indexZeroj + 1] = 0; 
-                tempneighbor2.indexZeroj = indexZeroj + 1;
-                allneighbors.push(tempneighbor2);
-               // tempneighbor = new Board(blkArray);
+        Board tempneighbor; 
 
-            }
-             StdOut.println("step2");
-        if(indexZeroi > 0)
+        for (int i = 0; i < N; i++ )
+            for (int j = 0; j < N; j++)
             {
-                tempneighbor3.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi - 1][indexZeroj]; 
-                tempneighbor3.blkArray[indexZeroi - 1][indexZeroj] = 0; 
-                tempneighbor3.indexZeroi = indexZeroi - 1;
-                allneighbors.push(tempneighbor3); 
-                //tempneighbor = new Board(blkArray);
+                blkArraycopy1[i][j] = blkArray[i][j];
+                blkArraycopy2[i][j] = blkArray[i][j];
+                blkArraycopy3[i][j] = blkArray[i][j];
+                blkArraycopy4[i][j] = blkArray[i][j];
             }
+
+        if (indexZeroj > 0)
+        {
+            blkArraycopy1[indexZeroi][indexZeroj] = blkArray[indexZeroi][indexZeroj - 1];
+            blkArraycopy1[indexZeroi][indexZeroj - 1] = 0; 
+            tempneighbor = new Board(blkArraycopy1);
+            allneighbors.push(tempneighbor);
+        }
+        if (indexZeroj < N-1)
+        {
+            blkArraycopy2[indexZeroi][indexZeroj] = blkArray[indexZeroi][indexZeroj + 1];
+            blkArraycopy2[indexZeroi][indexZeroj + 1] = 0;
+            tempneighbor = new Board(blkArraycopy2);
+            allneighbors.push(tempneighbor);
+        }
+        if (indexZeroi > 0)
+        {
+            blkArraycopy3[indexZeroi][indexZeroj] = blkArray[indexZeroi -1 ][indexZeroj];
+            blkArraycopy3[indexZeroi - 1][indexZeroj] = 0; 
+            tempneighbor = new Board(blkArraycopy3);
+            allneighbors.push(tempneighbor);
+        }
+        if (indexZeroi < N - 1)
+        {
+            blkArraycopy4[indexZeroi][indexZeroj] = blkArray[indexZeroi + 1][indexZeroj];
+            blkArraycopy4[indexZeroi + 1][indexZeroj] = 0; 
+            tempneighbor = new Board(blkArraycopy4);
+            allneighbors.push(tempneighbor);
+        }
+
+
+        // StdOut.println("step0");
+        // Stack<Board> allneighbors = new Stack<Board>();
+        // Board tempneighbor1 = new Board(blkArray);
+        // Board tempneighbor2 = new Board(blkArray);
+        // Board tempneighbor3 = new Board(blkArray);
+        // Board tempneighbor4 = new Board(blkArray); 
+        // StdOut.println("indexj " + indexZeroj);
+        // StdOut.println("indexi " + indexZeroi);
+        // if(indexZeroj > 0) 
+        //     {
+        //         StdOut.println("next" + blkArray[indexZeroi][indexZeroj - 1]);
+        //         tempneighbor1.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi][indexZeroj - 1]; 
+        //         StdOut.println("interstep1");
+        //         tempneighbor1.blkArray[indexZeroi][indexZeroj - 1] = 0; 
+        //         StdOut.println("interstep2");
+        //         tempneighbor1.indexZeroj = indexZeroj - 1;  
+        //         allneighbors.push(tempneighbor1); 
+        //         //tempneighbor = new Board(blkArray);
+        //     }
+        //     StdOut.println("step1");
+        // if(indexZeroj < N-1)
+        //     {
+        //         tempneighbor2.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi][indexZeroj + 1]; 
+        //         tempneighbor2.blkArray[indexZeroi][indexZeroj + 1] = 0; 
+        //         tempneighbor2.indexZeroj = indexZeroj + 1;
+        //         allneighbors.push(tempneighbor2);
+        //        // tempneighbor = new Board(blkArray);
+
+        //     }
+        //      StdOut.println("step2");
+        // if(indexZeroi > 0)
+        //     {
+        //         tempneighbor3.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi - 1][indexZeroj]; 
+        //         tempneighbor3.blkArray[indexZeroi - 1][indexZeroj] = 0; 
+        //         tempneighbor3.indexZeroi = indexZeroi - 1;
+        //         allneighbors.push(tempneighbor3); 
+        //         //tempneighbor = new Board(blkArray);
+        //     }
             
-        StdOut.println("step3");
-        if(indexZeroi < N-1)
-            {
-                tempneighbor4.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi + 1][indexZeroj]; 
-                tempneighbor4.blkArray[indexZeroi + 1][indexZeroj] = 0; 
-                tempneighbor4.indexZeroi = indexZeroi - 1;
-                allneighbors.push(tempneighbor4); 
-                //tempneighbor = new Board(blkArray);
-            }
+        // StdOut.println("step3");
+        // if(indexZeroi < N-1)
+        //     {
+        //         tempneighbor4.blkArray[indexZeroi][indexZeroj] = blkArray[indexZeroi + 1][indexZeroj]; 
+        //         tempneighbor4.blkArray[indexZeroi + 1][indexZeroj] = 0; 
+        //         tempneighbor4.indexZeroi = indexZeroi - 1;
+        //         allneighbors.push(tempneighbor4); 
+        //         //tempneighbor = new Board(blkArray);
+        //     }
         return allneighbors; 
 
     }

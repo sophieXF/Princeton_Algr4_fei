@@ -4,12 +4,104 @@
 		"selected_items":
 		[
 			[
-				"St",
-				"StdRandom"
+				"temp",
+				"tempneighbor"
+			],
+			[
+				"inde",
+				"indexZeroj"
+			],
+			[
+				"is",
+				"isGoal"
+			],
+			[
+				"solv",
+				"solvableflagTwin"
+			],
+			[
+				"Node",
+				"Node"
+			],
+			[
+				"min",
+				"minNode"
+			],
+			[
+				"Min",
+				"MinPQ"
+			],
+			[
+				"pqNode",
+				"pqNodeTwin"
+			],
+			[
+				"minNode",
+				"minNodeTwin"
+			],
+			[
+				"pre",
+				"preNode"
+			],
+			[
+				"solution",
+				"solutionBoard"
+			],
+			[
+				"num",
+				"numMoves"
+			],
+			[
+				"b",
+				"board"
+			],
+			[
+				"all",
+				"allneighbors"
+			],
+			[
+				"Arr",
+				"ArrayList"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"slope",
+				"slope"
+			],
+			[
+				"Br",
+				"brutetest"
 			],
 			[
 				"Std",
 				"StdOut"
+			],
+			[
+				"se",
+				"segmentsLineListused"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"imp",
+				"implements"
+			],
+			[
+				"segmentsL",
+				"segmentsLineList"
+			],
+			[
+				"St",
+				"StdRandom"
 			],
 			[
 				"S",
@@ -36,10 +128,6 @@
 				"addFirst"
 			],
 			[
-				"is",
-				"isEmpty"
-			],
-			[
 				"m",
 				"main	method (main)"
 			],
@@ -51,14 +139,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "BruteCollinearPoints.java",
-			"settings":
-			{
-				"buffer_size": 927,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -83,8 +163,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "ins",
+		"height": 380.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -145,6 +225,13 @@
 	},
 	"file_history":
 	[
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment4/Solver.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment4/Board.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/Point.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/LineSegment.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/BruteCollinearPoints.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/FastCollinearPoints.java",
+		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/fei/Desktop/algorithm/Assignment/Assignment2/RandomizedQueue.java",
 		"/Users/fei/Desktop/algorithm/Assignment/Assignment2/Subset.java",
 		"/Users/fei/Desktop/algorithm/Assignment/Assignment2/Deque.java",
@@ -156,7 +243,6 @@
 		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/fei/Desktop/algorithm/Assignment/Assignment1/Test.java",
 		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
-		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/fei/Desktop/algorithm/PercolationStats.java",
 		"/Users/fei/Desktop/algorithm/Percolation.java",
 		"/Users/fei/Desktop/algorithm/Test.java",
@@ -185,6 +271,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			");\n",
 			"Num",
 			");\n",
 			"classp"
@@ -206,96 +293,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "BruteCollinearPoints.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 927,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/Java/Java.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -332,7 +331,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 221.0
+		"height": 181.0
 	},
 	"output.find_results":
 	{

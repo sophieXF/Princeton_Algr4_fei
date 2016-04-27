@@ -1,0 +1,480 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"St",
+				"StdDraw"
+			],
+			[
+				"set",
+				"setPenColor"
+			],
+			[
+				"se",
+				"setPenColor"
+			],
+			[
+				"nd",
+				"nd"
+			],
+			[
+				"coun",
+				"countval"
+			],
+			[
+				"co",
+				"contains"
+			],
+			[
+				"Point",
+				"Point2D"
+			],
+			[
+				"Poin",
+				"Point2D"
+			],
+			[
+				"num",
+				"numOutofPlace"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"slope",
+				"slope"
+			],
+			[
+				"Br",
+				"brutetest"
+			],
+			[
+				"Std",
+				"StdOut"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"imp",
+				"implements"
+			],
+			[
+				"segmentsL",
+				"segmentsLineList"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"str",
+				"strLength"
+			],
+			[
+				"iter",
+				"iterator"
+			],
+			[
+				"remov",
+				"removeLast"
+			],
+			[
+				"remove",
+				"removeFirst"
+			],
+			[
+				"add",
+				"addFirst"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"m",
+				"main	method (main)"
+			],
+			[
+				"war",
+				"warmUpExercise"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "WordNet.java",
+			"settings":
+			{
+				"buffer_size": 838,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"show",
+				"Git: Show Current File"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"check",
+				"Git: Checkout Current File"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"javatar",
+				"Javatar: Builds..."
+			],
+			[
+				"",
+				"Javatar: Builds..."
+			],
+			[
+				"java",
+				"Javatar: Operations..."
+			],
+			[
+				"javat",
+				"Javatar: Operations..."
+			],
+			[
+				"build",
+				"Javatar: Builds..."
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fei/Downloads/WordNet.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment4/Solver.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/FastCollinearPoints.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/Point.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/LineSegment.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment3/BruteCollinearPoints.java",
+		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment2/RandomizedQueue.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment2/Subset.java",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment2/Deque.java",
+		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/User/Java.sublime-build",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment1/ps1.sublime-workspace",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment1/ps1.sublime-project",
+		"/Users/fei/Desktop/algorithm/Assignment/Test/untitled",
+		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/Javatar/Default (OSX).sublime-keymap",
+		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fei/Desktop/algorithm/Assignment/Assignment1/Test.java",
+		"/Users/fei/Library/Application Support/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
+		"/Users/fei/Desktop/algorithm/PercolationStats.java",
+		"/Users/fei/Desktop/algorithm/Percolation.java",
+		"/Users/fei/Desktop/algorithm/Test.java",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex2/ex2/mapFeature.m",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex2/ex2/costFunctionReg.m",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex2/ex2/ex2.m",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex1/ex1/gradientDescentMulti.m",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex1/ex1/normalEqn.m",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex1/ex1/warmUpExercise.m",
+		"/Users/fei/Desktop/machine_learning/machine-learning-ex1/ex1/gradientDescent.m",
+		"/Users/fei/Downloads/密码.txt"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Num",
+			");\n",
+			"classp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"num"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "WordNet.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 219.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "Packages/User/Java.sublime-build",
+	"project": "PS6.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/algorithm/Assignment/Test/test.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

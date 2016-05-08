@@ -2,15 +2,15 @@ import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Digraph;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.BinarySearchST;
+import edu.princeton.cs.algs4.RedBlackBST;
 import java.lang.NullPointerException;
 import java.lang.String;
 import java.util.ArrayList;
 import edu.princeton.cs.algs4.DirectedCycle;
 
 public class WordNet {
-    private BinarySearchST<String, ArrayList<Integer>> nounTable;
-    private BinarySearchST<Integer, String> idTable;
+    private RedBlackBST<String, ArrayList<Integer>> nounTable;
+    private RedBlackBST<Integer, String> idTable;
     private Digraph hyperDigraph; 
     private int numSynsets; 
     private int minlength;
@@ -22,8 +22,8 @@ public class WordNet {
         if (hypernyms == null)
             throw new java.lang.NullPointerException();
         In input = new In(synsets);
-        nounTable = new BinarySearchST<String, ArrayList<Integer>>();
-        idTable = new BinarySearchST<Integer, String>();
+        nounTable = new RedBlackBST<String, ArrayList<Integer>>();
+        idTable = new RedBlackBST<Integer, String>();
         String stringInput; 
         numSynsets = 0;
         while (input.hasNextLine())
